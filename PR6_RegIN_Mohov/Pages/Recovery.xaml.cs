@@ -23,7 +23,6 @@ namespace PR6_RegIN_Mohov.Pages
     /// </summary>
     public partial class Recovery : Page
     {
-        string OldLogin;
         bool IsCapture = false;
 
         public Recovery()
