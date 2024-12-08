@@ -15,10 +15,10 @@ namespace PR6_RegIN_Mohov.Classes
             var smtpClient = new SmtpClient("smtp.yandex.ru")
             {
                 Port = 587,
-                Credentials = new NetworkCredential("artemmohov05@mail.ru", "112211qQFortnite"),
+                Credentials = new NetworkCredential("mokhovtema@yandex.ru", "elvmujhniwvuwofh"),
                 EnableSsl = true,
             };
-            smtpClient.Send("artemmohov05@mail.ru", To, "Проект RegIn", Message);
+            smtpClient.Send("mokhovtema@yandex.ru", To, "Проект RegIn", Message);
         }
     }
 }
