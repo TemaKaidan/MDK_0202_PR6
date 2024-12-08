@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:PR6_RegIN_Mohov.Elements"
              mc:Ignorable="d" 
              d:DesignHeight="100" d:DesignWidth="280">
+    
     <Grid>
         <Grid x:Name="Capture" Height="50" VerticalAlignment="Top"/>
         <Label Content="Enter capture:" Margin="0,50,0,0" VerticalAlignment="Top"/>
