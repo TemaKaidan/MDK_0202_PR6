@@ -16,10 +16,10 @@
       Background="{DynamicResource MaterialDesignPaper}"
       FontFamily="{DynamicResource MaterialDesignFont}">
  
-    <Grid Background="White">
+    <Grid Background="Beige">
         <materialDesign:Card Height="304" VerticalAlignment="Center" HorizontalAlignment="Center" Width="307">
             <Grid>
-                <Image HorizontalAlignment="Center" Height="100" Margin="32" VerticalAlignment="Top" Width="100" Source="/RegIN_Pleshkova;component/Images/ic-mail.png">
+                <Image HorizontalAlignment="Center" Height="100" Margin="32" VerticalAlignment="Top" Width="100" Source="/PR6_RegIN_Mohov;component/Images/ic-mail.png">
                     <Image.Clip>
                         <EllipseGeometry RadiusX="50" RadiusY="50" Center="50,50"/>
                     </Image.Clip>

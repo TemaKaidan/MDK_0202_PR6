@@ -17,16 +17,10 @@
       Background="{DynamicResource MaterialDesignPaper}"
       FontFamily="{DynamicResource MaterialDesignFont}">
 
-    <Grid>
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FF39567D" Offset="1"/>
-                <GradientStop Color="#FF9FC2C7" Offset="0"/>
-            </LinearGradientBrush>
-        </Grid.Background>
+    <Grid Background="Beige">
         <materialDesign:Card Height="345" VerticalAlignment="Center" HorizontalAlignment="Center" Width="308">
             <Grid>
-                <Image x:Name="IUser" HorizontalAlignment="Center" Height="100" Margin="32" VerticalAlignment="Top" Width="100" Source="/RegIN_Pleshkova;component/Images/ic-user.png">
+                <Image x:Name="IUser" HorizontalAlignment="Center" Height="100" Margin="32" VerticalAlignment="Top" Width="100" Source="/PR6_RegIN_Mohov;component/Images/ic-user.png">
                     <Image.Clip>
                         <EllipseGeometry RadiusX="50" RadiusY="50" Center="50,50"/>
                     </Image.Clip>
